@@ -8,13 +8,14 @@ setup(name='django-xforwardedfor-middleware',
       author='Alexander Schier',
       author_email='allo@laxu.de',
       url='https://github.com/allo-/django-xforwardedfor-middleware',
-      version='1.0',
+      version='1.1',
       packages=['x_forwarded_for'],
       classifiers=[
           'Framework :: Django',
           'License :: Public Domain',
           'Operating System :: OS Independent',
           'Programming Language :: Python'
-      ]
+      ],
+      install_requires=['django>=1.1,<1.10']
       )
 
