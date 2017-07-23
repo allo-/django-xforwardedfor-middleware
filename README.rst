@@ -7,9 +7,10 @@ Simple Django middleware to use the ``X-Forwarded-For`` header as the request IP
 Installation
 ------------
 
-``pip install django-xforwardedfor-middleware==1.1``
+``pip install django-xforwardedfor-middleware==2.0``
 
-You need django-xforwardedfor-middleware version 1.1 for django 1.1 up to 1.9 and need to use version 2.0 for newer django versions.
+django-xforwardedfor-middleware version 2.0 supports django 1.10 and newer.
+You can install version 1.1 if you're still using older django.
 
 
 Usage
